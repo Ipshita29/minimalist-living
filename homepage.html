@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Minimalist Living</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* Container for buttons */
+    .button-container {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    /* Base styling for buttons */
+    .custom-button {
+        background-color: #e2c3a7;
+        color: white;
+        padding: 20px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.3s;
+        width: 500px;
+        font-size: large;
+        text-align: center;
+    }
+
+    /* Hover effect */
+    .custom-button:hover {
+        background-color: #d6a477;
+    }
+
+    /*footer*/
+    .footer{
+    background-color:#e2c3a7; 
+}
+.links{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.logo{
+    padding: 20px;
+    text-align: center;
+     
+}
+.copywrite{
+    text-align: center;
+}   
+.policy{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.policy a{
+    color: black;
+    text-decoration: none;
+}
+</style>
+</head>
+<body style="margin: 0; font-family: Arial, sans-serif;">
+
+<nav style="background-color: #43302a; padding: 10px;">
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div style="font-style: italic; font-size: 24px; color: white;">Empty Spaces,Full Hearts</div>
+    <ul style="list-style-type: none; margin: 0; padding: 0; display: flex; gap: 15px;">
+      <li style="display: inline;"><a href="#" style="text-decoration: none; color: white; background-color: #e2c3a7 ; padding: 5px 10px; border-radius: 3px;">♥︎</a></li>
+      <li style="display: inline;"><a href="#" style="text-decoration: none; color: white; background-color:#e2c3a7 ; padding: 5px 10px; border-radius: 3px;">🛒</a></li>
+      <li style="display: inline;"><a href="#" style="text-decoration: none; color: white; background-color: #e2c3a7 ; padding: 5px 10px; border-radius: 3px;">✉︎</a></li>
+      <li style="display: inline;"><a href="#" style="text-decoration: none; color: white; background-color: #e2c3a7 ; padding: 5px 10px; border-radius: 3px;">Sign in</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div style="background-color: #ebe6e4;text-align: center;">
+  <img src="logo.png" style="height:150px" >
+</div>
+<div>
+  <h3 style="background-color:#ebe6e4;margin: 0px;padding: 0px;text-align: center;font-style: italic;font-size:20px;">Clear the Clutter, Clear the Mind</h3>
+</div>
+<div class="button-container">
+  <button class="custom-button" onclick="location.href='#clothes'">Clothes</button>
+  <button class="custom-button" onclick="location.href='#books'">Books</button>
+  <button class="custom-button" onclick="location.href='#plants'">Plants</button>
+  <button class="custom-button" onclick="location.href='#decor'">Home Decor</button>
+</div>
+<video autoplay muted loop style="width:2000px;">
+  <source src="video2.mp4" type="video/mp4">
+</video>
+<section style="text-align: center; padding: 15px; font-family: Arial, sans-serif;font-style: italic;background-color: #fdf2e9;">
+  <h1 style="font-size: 3.8rem; color: #641e16 ;">Why Minimalism?</h1>
+  <p style="font-size: 2rem; color: #666; max-width: 1000px; margin: 5px auto;">
+    Minimalism is more than an aesthetic—it's a mindset. By focusing on what truly matters, it removes the clutter, reduces stress, and creates room for purpose, clarity, and elegance. It's about living with intention and finding beauty in simplicity.
+  </p>
+</section>
+<div style="margin-top: 10px;"></div>
+<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+  <div style="position: relative; width: 400px; height: 500px; overflow: hidden;">
+    <img src="books.png" style="width: 100%; height: 100%; object-fit: cover;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; 
+                background: #e59866 ; color: white; display: flex; 
+                justify-content: center; align-items: center; font-size: 25px; opacity: 0;font-style: italic;
+                transition: opacity 0.3s ease;" 
+         onmouseover="this.style.opacity='1'" 
+         onmouseout="this.style.opacity='0'">
+      Books
+    </div>
+  </div>
+
+  <div style="position: relative; width: 400px; height: 500px; overflow: hidden;">
+    <img src="Clothing.png" style="width: 100%; height: 100%; object-fit: cover;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; 
+                background: #e59866 ;color: white; display: flex; 
+                justify-content: center; align-items: center; font-size: 25px; opacity: 0; font-style: italic;
+                transition: opacity 0.3s ease;" 
+         onmouseover="this.style.opacity='1'" 
+         onmouseout="this.style.opacity='0'">
+      Clothing
+    </div>
+  </div>
+
+  <div style="position: relative; width: 400px; height: 500px; overflow: hidden;">
+    <img src="home decor.png"  style="width: 100%; height: 100%; object-fit: cover;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; 
+                background:#e59866 ; color: white; display: flex; 
+                justify-content: center; align-items: center; font-size: 25px; opacity: 0;font-style: italic; 
+                transition: opacity 0.3s ease;" 
+         onmouseover="this.style.opacity='1'" 
+         onmouseout="this.style.opacity='0'">
+      Home Decor
+    </div>
+  </div>
+
+  <div style="position: relative; width: 400px; height: 500px; overflow: hidden;">
+    <img src="Plants.png" style="width: 100%; height: 100%; object-fit: cover;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; 
+                background: #e59866 ; color: white; display: flex; 
+                justify-content: center; align-items: center; font-size: 25px; opacity: 0; font-style: italic;
+                transition: opacity 0.3s ease;" 
+         onmouseover="this.style.opacity='1'" 
+         onmouseout="this.style.opacity='0'">
+      Plants
+    </div>
+  </div>
+</div>
+<div style="margin-top: 10px;"></div>
+<div style="background-color: #f5cba7 ;height:550px;width:2000px;">
+  <h3 style="color: white;font-size:60px;text-align: center;margin-top:10px;margin-bottom: 5px;">Get in touch</h3>
+<div style="text-align: center; margin-bottom: 20px;">
+  <p style="margin: 5px;color:white;">☞ Address: NST Pune</p>
+  <p style="margin: 5px;color:white;">✉︎ Email: moon@gmail.com</p>
+</div>
+<form style="max-width: 400px; margin: 0 auto; text-align: left;">
+  <label for="name" style="display: block; margin-bottom: 5px;font-size: 25px;color:white;border-radius: 5px;">Your Name:</label>
+  <input type="text" id="name" name="name" placeholder="Your Name" 
+         style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid  #f0b27a; border-radius: 5px;">
+  <label for="email" style="display: block; margin-bottom: 5px;font-size: 25px;color:white;border-radius: 5px;">Your Email:</label>
+  <input type="email" id="email" name="email" placeholder="Your Email" 
+         style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid  #f0b27a; border-radius: 5px;">
+  <label for="message" style="display: block; margin-bottom: 5px;font-size: 25px;color:white;border-radius: 5px;">Your Message:</label>
+  <textarea id="message" name="message" placeholder="Your Message" rows="5" 
+            style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid  #f0b27a; border-radius: 5px;"></textarea>
+  <button type="submit" 
+          style="width: 100%; padding: 10px; background-color: #f6ddcc; color:black; border: none; border-radius: 5px; cursor: pointer;font-size: 20px;">Submit
+  </button>
+  <footer class="footer">
+    <div class="links">
+        <button>
+            <img src="instafooter.png" width="20px" height="20px">
+        
+        </button>
+        <button>
+            <img src="facebookfooter.png" width="20px" height="20px">
+        </button>
+        <button>
+            <img src="telegramfooter.png" width="20px" height="20px">
+        </button>
+        <button>
+            <img src="twitterfooter.png" width="20px" height="20px">
+        </button>
+        <button>
+            <img src="youtubefooter.png" width="20px" height="20px">
+        </button>
+        <button>
+            <img src="linkedin.png" width="20px" height="20px">
+        </button>
+        <button>
+            <img src="pinterest.png" width="20px" height="20px">
+        </button>
+    </div>
+    <div class="logo">
+        <img src="logo.png" style="height:150px" >
+    </div>
+    <div class="copywrite">
+        <p>
+        Copywrite ©️ 2024 Moon , Inc
+        </p>
+    </div>
+    <div class="policy">
+        <a href="">Legal</a>
+        <a href=""> Privacy Policy</a>
+        <a href=""> Security</a>
+        <a href="">Website Accessibility</a>
+        <a href="">Manage Cookies</a>
+
+    </div>
+
+</footer>
+</form>
+</div>
+</body>
+</html>
