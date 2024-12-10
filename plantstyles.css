@@ -83,8 +83,8 @@ button {
 .price {
     color: rgb(69, 159, 69);
 }
-footer {
-    background-color: #e2c3a7; 
+.footer{
+    background-color:#e2c3a7; 
 }
 .links{
     padding: 20px;
@@ -109,3 +109,5 @@ footer {
     color: black;
     text-decoration: none;
 }
+
+
